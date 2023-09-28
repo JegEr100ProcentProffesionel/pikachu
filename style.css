@@ -128,8 +128,6 @@ footer p {
     background-color: khaki; 
     overflow: auto;
     text-align: center;
-
- 
  }
 
  .familyImg {
@@ -137,4 +135,10 @@ footer p {
     height: 100%;
     float: left;
     border-right: 2px solid black;
+ }
+
+ @media (max-width: 800px) {
+    #logo {
+        position: static;
+    }
  }
